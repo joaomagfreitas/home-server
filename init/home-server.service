@@ -1,0 +1,12 @@
+[Unit]
+Description=Inits home server services
+
+[Service]
+User=root
+WorkingDirectory=/home/freitas-media-server/
+ExecStart=bash Workspace/Projects/freitzzz/home-server/init/init
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

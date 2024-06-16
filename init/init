@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+
+set -e
+
+# Start monitoring
+(
+    cd ../monitoring
+    bash init
+)
+
+# Start immich server
+(
+    cd ../../../Tools/immich-app/
+    bash init
+)
+
+# Start goatcounter
+(
+    cd ../../../Tools/goatcounter/
+    bash init
+)
+
+# Start flatnotes
+(
+    cd ../../../Tools/flatnotes/
+    bash init
+)
