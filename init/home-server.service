@@ -3,9 +3,9 @@ Description=Inits home server services
 
 [Service]
 User=root
-WorkingDirectory=/home/freitas-media-server/
-ExecStart=bash Workspace/Projects/freitzzz/home-server/init/init
-Restart=always
+WorkingDirectory=/home/freitas-media-server/Workspace/Projects/freitzzz/home-server/init/
+ExecStart=bash /home/freitas-media-server/Workspace/Projects/freitzzz/home-server/init/init
+Restart=no
 RestartSec=5
 
 [Install]
