@@ -8,8 +8,5 @@ sudo cp $service /etc/systemd/system/
 # Reload systemd to include service
 sudo systemctl daemon-reload
 
-# Start service on next book
+# Start service on next reboot
 sudo systemctl enable $service
-
-# Start service immediately
-sudo systemctl start $service
