@@ -10,18 +10,18 @@ set -e
 
 # Start immich server
 (
-    cd ../../../Tools/immich-app/
+    cd ../../../../Tools/immich-app/
     bash init
 )
 
 # Start goatcounter
 (
-    cd ../../../Tools/goatcounter/
+    cd ../../../../Tools/goatcounter/
     bash init
 )
 
 # Start flatnotes
 (
-    cd ../../../Tools/flatnotes/
+    cd ../../../../Tools/flatnotes/
     bash init
 )
